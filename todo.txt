@@ -1,0 +1,7 @@
+Split out Routes into separate file.
+Split out db queries into separate file.
+Implement DELETE endpoint for users.
+Update /image PUT to accept an "incrementBy" parameter to use for incrementing entries count.
+Update /signin endpoint to do better error checking and return better errors to the front end.
+Update /register endpoint to do better error checking and return better errors to the front end.
+Write tests.
