@@ -37,6 +37,9 @@ app.get('/profile/:id', (req, res) => {
 app.put('/image', (req, res) => {
    image.putImage(req, res, db);
 });
+app.post('/imageurl', (req, res) => {
+   image.handleClarifaiAPICall(req, res);
+});
 
 app.listen(3000, () => {
    console.log('app is running on port 3000');
